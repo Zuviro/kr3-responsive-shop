@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Каталог Pumpkin: товары, фильтры, характеристики.">
+  <title>Каталог — Pumpkin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Pumpkin</a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="catalog.html" aria-current="page">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заявка</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <ol>
+            <li><a href="index.html">Главная</a></li>
+            <li>Каталог</li>
+          </ol>
+        </nav>
+
+        <h1>Каталог декораций</h1>
+
+        <div class="catalog-layout">
+          <aside class="catalog-filters" aria-label="Фильтры каталога">
+            <h2>Категории</h2>
+            <ul>
+              <li><a href="#">Все товары</a></li>
+              <li><a href="#">Гирлянды</a></li>
+              <li><a href="#">Букеты</a></li>
+              <li><a href="#">Подсвечники</a></li>
+            </ul>
+            <h2>Цена</h2>
+            <ul>
+              <li><a href="#">до 150 ₽</a></li>
+              <li><a href="#">150–300 ₽</a></li>
+              <li><a href="#">от 300 ₽</a></li>
+            </ul>
+          </aside>
+
+          <div class="products-grid">
+            <article class="product-card product-card--discount">
+              <span class="product-card__badge">Скидка</span>
+              <img
+                class="product-card__image"
+                src="images/Listopad.jpg"
+                srcset="images/Listopad.jpg 640w"
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                alt="Гирлянда Листопад на батарейках"
+                width="640"
+                height="480"
+                loading="lazy"
+              >
+              <div class="product-card__content">
+                <h3 class="product-card__title">Гирлянда "Листопад"</h3>
+                <p class="product-card__description">Гирлянда на батарейках, 2м</p>
+                <p class="product-card__price">250 ₽</p>
+                <a class="button" href="product.html">Подробнее</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                class="product-card__image"
+                src="images/Osen.jpg"
+                srcset="images/Osen.jpg 640w"
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                alt="Искусственный букет Осень в вазе"
+                width="640"
+                height="480"
+                loading="lazy"
+              >
+              <div class="product-card__content">
+                <h3 class="product-card__title">Искуственный букет "Осень"</h3>
+                <p class="product-card__description">Настольнаяя декорация в вазе</p>
+                <p class="product-card__price">150 ₽</p>
+                <a class="button" href="product.html">Подробнее</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                class="product-card__image"
+                src="images/Tykva.jpg"
+                srcset="images/Tykva.jpg 640w"
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                alt="Металлический подсвечник Тыква"
+                width="640"
+                height="480"
+                loading="lazy"
+              >
+              <div class="product-card__content">
+                <h3 class="product-card__title">Подсвечник "Тыква"</h3>
+                <p class="product-card__description">Металличский подсвечник для чайной свечи</p>
+                <p class="product-card__price">366 ₽</p>
+                <a class="button" href="product.html">Подробнее</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                class="product-card__image"
+                src="images/Zhyoludi.jpg"
+                srcset="images/Zhyoludi.jpg 640w"
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                alt="Гирлянда Жёлуди на батарейках"
+                width="640"
+                height="480"
+                loading="lazy"
+              >
+              <div class="product-card__content">
+                <h3 class="product-card__title">Гирлянда "Жёлуди"</h3>
+                <p class="product-card__description">Гирлянда на батарейках, 1.5м</p>
+                <p class="product-card__price">300 ₽</p>
+                <a class="button" href="product.html">Подробнее</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                class="product-card__image"
+                src="images/Lesnoj_urozhaj.jpg"
+                srcset="images/Lesnoj_urozhaj.jpg 640w"
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                alt="Подвесной декор Лесной урожай"
+                width="640"
+                height="480"
+                loading="lazy"
+              >
+              <div class="product-card__content">
+                <h3 class="product-card__title">Подвесной декор "Лесной урожай"</h3>
+                <p class="product-card__description">Декоративный букет на стену</p>
+                <p class="product-card__price">147 ₽</p>
+                <a class="button" href="product.html">Подробнее</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                class="product-card__image"
+                src="images/Klenovyj_list.jpg"
+                srcset="images/Klenovyj_list.jpg 640w"
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                alt="Стеклянный подсвечник Кленовый лист"
+                width="640"
+                height="480"
+                loading="lazy"
+              >
+              <div class="product-card__content">
+                <h3 class="product-card__title">Свеча в подсвечнике "Кленовый лист"</h3>
+                <p class="product-card__description">Стеклянный подсвечник с чайной свечой</p>
+                <p class="product-card__price">261 ₽</p>
+                <a class="button" href="product.html">Подробнее</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>Учебный проект Pumpkin · <a href="contacts.html">Контакты</a></p></div>
+  </footer>
+
+  <a class="up-button" href="#top" aria-label="Наверх">↑</a>
+  <script src="js/main.js"></script>
+</body>
+</html>
